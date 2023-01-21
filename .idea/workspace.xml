@@ -9,15 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec5e5451-de87-458e-8723-7ff77486639c" name="Changes" comment="commit #1&#10;рабочий шаблон">
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/controller/CarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/dao/CarDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/dao/CarDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/service/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/service/CarServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/cars.html" afterDir="false" />
+    <list default="true" id="ec5e5451-de87-458e-8723-7ff77486639c" name="Changes" comment="commit #2&#10;Выводится только шапка">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/controller/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/controller/CarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/controller/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/controller/CarController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +71,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "c5611d5c8c9f9e897d6bf480c0e77655",
+    "spring.configuration.checksum": "175020fb30074bdadcbbfb1cf9e60109",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -186,7 +181,8 @@
       <workItem from="1674312188327" duration="4602000" />
       <workItem from="1674317790551" duration="167000" />
       <workItem from="1674317978351" duration="118000" />
-      <workItem from="1674318300469" duration="4236000" />
+      <workItem from="1674318300469" duration="5272000" />
+      <workItem from="1674325258971" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="commit #1&#10;рабочий шаблон">
       <created>1674311572250</created>
@@ -195,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674311572250</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit #2&#10;Выводится только шапка">
+      <created>1674323600831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674323600831</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +206,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit #1&#10;рабочий шаблон" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit #1&#10;рабочий шаблон" />
+    <MESSAGE value="commit #2&#10;Выводится только шапка" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit #2&#10;Выводится только шапка" />
   </component>
 </project>

@@ -20,19 +20,26 @@ public class CarController {
     }
 
 
+//    @GetMapping("/cars")
+//    public String viewCars (@RequestParam(value = "count", required = false) String count, Model model) {
     @GetMapping("/cars")
-    public String viewCars (@RequestParam(value = "count", required = false) String count, Model model) {
+    public String viewCars (Model model) {
 
-        List<Car> carListToView;
+//        List<Car> carListToView;
+//        List<Car> allCarList = carService.getAllCarList();
+//
+//        if (count == null){
+//            carListToView = allCarList;
+//        } else {
+//            carListToView = carService.getCarListByCount(allCarList, Integer.parseInt(count));
+//        }
+//        model.addAttribute("carList", carListToView);
+//        return "cars";
+//    }
         List<Car> allCarList = carService.getAllCarList();
-
-        if (count == null){
-            carListToView = allCarList;
-        } else {
-            carListToView = carService.getCarListByCount(allCarList, Integer.parseInt(count));
-        }
-        model.addAttribute("carList", carListToView);
+        model.addAttribute("carList", allCarList);
         return "cars";
+
     }
 
 }
