@@ -9,9 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec5e5451-de87-458e-8723-7ff77486639c" name="Changes" comment="commit #2&#10;Выводится только шапка">
+    <list default="true" id="ec5e5451-de87-458e-8723-7ff77486639c" name="Changes" comment="commit #3&#10;Выводится только шапка">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/CarDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/CarDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/CarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/cars.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/controller/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/controller/CarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/dao/CarDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/dao/CarDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/service/CarServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/service/CarServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/web/controller/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/controller/CarController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,31 +63,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "175020fb30074bdadcbbfb1cf9e60109",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;175020fb30074bdadcbbfb1cf9e60109&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.71" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.71" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="spring-mvc:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/spring_mvc_war_exploded" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
@@ -183,6 +189,12 @@
       <workItem from="1674317978351" duration="118000" />
       <workItem from="1674318300469" duration="5272000" />
       <workItem from="1674325258971" duration="695000" />
+      <workItem from="1674326543094" duration="612000" />
+      <workItem from="1674327931821" duration="900000" />
+      <workItem from="1674329044737" duration="45000" />
+      <workItem from="1674393341653" duration="9607000" />
+      <workItem from="1674411691133" duration="1489000" />
+      <workItem from="1674413550414" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="commit #1&#10;рабочий шаблон">
       <created>1674311572250</created>
@@ -198,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674323600831</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit #3&#10;Выводится только шапка">
+      <created>1674326970263</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674326970263</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +226,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit #1&#10;рабочий шаблон" />
     <MESSAGE value="commit #2&#10;Выводится только шапка" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit #2&#10;Выводится только шапка" />
+    <MESSAGE value="commit #3&#10;Выводится только шапка" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit #3&#10;Выводится только шапка" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/web/service/CarServiceImpl.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/web/dao/CarDaoImpl.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

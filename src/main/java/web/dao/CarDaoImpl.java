@@ -9,20 +9,20 @@ import java.util.stream.Collectors;
 
 @Component
 public class CarDaoImpl implements CarDao {
-    private List<Car> carList;
+    private List<Car> cars;
 
     {
-        carList = new ArrayList<>();
-        carList.add(new Car("BMW", "X6", 2023));
-        carList.add(new Car("FORD", "F-150", 2009));
-        carList.add(new Car("LAMBORGINI", "HURACAN", 2014));
-        carList.add(new Car("PORSHE", "911", 1964));
-        carList.add(new Car("VOLVO", "XC90", 2023));
+        cars = new ArrayList<>();
+        cars.add(new Car("BMW", "X6", 2023));
+        cars.add(new Car("FORD", "F-150", 2009));
+        cars.add(new Car("LAMBORGINI", "HURACAN", 2014));
+        cars.add(new Car("PORSHE", "911", 1964));
+        cars.add(new Car("VOLVO", "XC90", 2023));
     }
 
     @Override
     public List<Car> getAllCarList() {
-        return carList;
+        return cars;
     }
 
     @Override

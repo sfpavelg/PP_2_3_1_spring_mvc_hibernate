@@ -16,7 +16,7 @@
     </thead>
     <tbody>
     <tr th:each="car : ${carList}">
-        <td align="center" th:utext="${car.getModel()()}"></td>
+        <td align="center" th:utext="${car.getModel()}"></td>
         <td align="center" th:utext="${car.getSeries()}"></td>
         <td align="center" th:utext="${car.getYearOfIssue()}"></td>
     </tr>
